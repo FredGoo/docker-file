@@ -1,1 +1,4 @@
-# rabbitmq+zookeeper
+- rabbitmq
+- zookeeper
+- redis
+- mysql
