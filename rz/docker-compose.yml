@@ -22,5 +22,7 @@ services:
     image: mysql:5
     network_mode: "host"
     restart: unless-stopped
+    environment:
+      MYSQL_ROOT_PASSWORD: 123
     volumes:
       - ./mysql/data:/var/lib/mysql
